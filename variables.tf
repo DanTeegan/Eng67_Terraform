@@ -10,7 +10,7 @@ variable "name" {
 	default = "Daniel.Terraform.node.app"
 }
 
-variable "app_ami_ami" {
+variable "app_ami_id" {
 	type = string
 	default = "ami-087fd8ad2539f981d"
 }
