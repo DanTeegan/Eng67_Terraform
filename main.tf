@@ -54,7 +54,17 @@ resource "aws_security_group" "eng67_daniel_terraform_sg" {
     to_port     = 80
     protocol    = "tcp"
     cidr_blocks = ["172.31.138.0/24"]
+  
+}
+
+    ingress {
+    description = "ingress traffic"
+    from_port   = 80
+    to_port     = 80
+    protocol    = "tcp"
+    cidr_blocks = ["0.0.0.0/0"]
   }
+
 
   egress {
     from_port   = 0
