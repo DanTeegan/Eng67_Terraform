@@ -12,7 +12,7 @@
 #### Terraform - Orchestration
 Kubernetes - Orchestration is used in containerisation - i.e. Docker, Crio - rocket
 
-### Infrastructure as Code (IaC) is the process of managing and provisioning data centers through machine-readable definition files, rather than manual point-and-click. It means writing code to define your infrastructure, in the same manner you would write code to define your application software. 
+Infrastructure as Code (IaC) is the process of managing and provisioning data centers through machine-readable definition files, rather than manual point-and-click. It means writing code to define your infrastructure, in the same manner you would write code to define your application software. 
 Expressing your infrastructure as code has many distinct advantages over manual provisioning they include:
 
 - being able to check code into version control systems
